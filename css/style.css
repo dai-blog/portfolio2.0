@@ -80,6 +80,7 @@ header .container {
   height: 600px;
   color: #fff;
   text-align: center;
+  position: relative;
 }
 
 .top-text {
