@@ -109,7 +109,7 @@ header .container {
 }
 
 #modal ul {
-  padding-top: 200px;
+  padding-top: 25%;
   transform: rotate(360deg);
   transition: all .5s;
 }
