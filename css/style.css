@@ -42,7 +42,7 @@ header {
   z-index: 10;
 }
 
-i {
+#bars {
   display: none;
 }
 
@@ -363,7 +363,7 @@ footer h1 {
     font-size: 32px;
   }
 
-  i {
+  #bars {
     display: block;
     position: fixed;
     top: 16px;
