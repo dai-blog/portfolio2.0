@@ -40,3 +40,23 @@
   font-size: 22px;
   color: #0000007c;
 }
+
+@media (max-width: 1000px) {
+
+  .top h1 {
+    font-size: 40px;
+  }
+
+  .contents {
+    height: 100%;
+  }
+
+  .contents ul {
+    flex-direction: column;
+  }
+
+  .contents li {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
