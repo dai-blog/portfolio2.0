@@ -1,0 +1,42 @@
+
+.top {
+  position: relative;
+}
+
+.top h1 {
+  font-size: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* contents */
+.contents {
+  height: 600px;
+}
+
+.contents ul {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contents li {
+  width: 30%;
+  height: 250px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.contents li img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.contents p {
+  font-size: 22px;
+  color: #0000007c;
+}
