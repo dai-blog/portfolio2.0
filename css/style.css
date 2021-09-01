@@ -44,6 +44,7 @@ header {
 
 #bars {
   display: none;
+  cursor: pointer;
 }
 
 header .container {
@@ -76,6 +77,57 @@ header .container {
   color: rgba(0, 0, 0, 1);
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+/* modal */
+#modal {
+  background-color: rgba(0, 0, 0, 0.541);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .5s;
+}
+
+#modal.appear {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;  
+}
+
+#close {
+  position: fixed;
+  top: 16px;
+  font-size: 56px;
+  right: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+#modal ul {
+  padding-top: 200px;
+  transform: rotate(360deg);
+  transition: all .5s;
+}
+
+#modal li {
+  padding-top: 40px;
+}
+
+#modal.appear ul {
+  transform: rotate(0);
+}
+
+#modal a {
+  color: white;
+  display: inline-block;
+}
+
+
 
 /* top */
 .top {
@@ -370,5 +422,9 @@ footer h1 {
     font-size: 56px;
     right: 24px;
     color: #00000098;
+  }
+
+  #bars.hide {
+    display: none;
   }
 }
