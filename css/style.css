@@ -127,6 +127,39 @@ header .container {
   display: inline-block;
 }
 
+.header-right li:nth-child(2n) {
+  position: relative;
+}
+
+
+
+#skill-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 245px;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-right li:nth-child(2n):hover #skill-menu {
+  display: block;
+}
+
+#skill-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#skill-menu li {
+  border: 1px solid;
+}
+
+#skill-menu a {
+  line-height: 80px;
+  display: inline-block;
+}
+
 
 
 /* top */

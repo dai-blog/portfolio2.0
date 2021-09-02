@@ -23,10 +23,16 @@
       <div class="header-right">
         <ul>
           <li><a href="../index.html">トップ</a></li>
-          <li><a href="../index.html#about">このサイトについて</a></li>
-          <li><a href="../index.html#profile">自己紹介</a></li>
-          <li><a href="../index.html#skill">ポートフォリオ</a></li>
-          <li><a href="../index.html#contact">お問い合わせ</a></li>
+          <li><a href="../index.html#skill">ポートフォリオ</a>
+            <div id="skill-menu">
+              <ul>
+                <li><a href="../skils/slkill1.html">html&css</a></li>
+                <li><a href="../skils/slkill2.html">JavaScript</a></li>
+                <li><a href="../skils/slkill3.html">PHP</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#contents">制作物一覧</a></li>
         </ul>
       </div>
     </div>
@@ -39,7 +45,7 @@
         <h1>HTML&CSS</h1>    
   </section>
 
-  <section class="contents">
+  <section class="contents" id="contents">
     <ul>
       <li>
         <a target="blank" href="https://dai-blog.github.io/coding-test/"><img src="../image/code1.png" alt=""></a>
@@ -68,6 +74,16 @@
     </ul>
   </section>
 
+    <!-- modal -->
+    <div id="modal">
+      <ul>
+        <li><a href="../index.html">トップ</a></li>
+        <li><a href="../index.html#skill">ポートフォリオ</a></li>
+        <li><a href="#contents">制作物一覧</a></li>
+      </ul>    
+      <i class="fas fa-times" id="close"></i>
+    </div>
+
   <footer>
     <div class="container">
       <div id="backTop"><a href="#top">^</a></div>
@@ -77,5 +93,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="../js/second.js"></script>
 </body>
 </html>
