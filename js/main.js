@@ -29,5 +29,5 @@
     menu.classList.remove('hide');
   });
 
-  
+
 }
